@@ -12,7 +12,7 @@ model_path = saved_model_dir = os.path.join(BASE_DIR, "pb_model/saved_model")
 resize_shape = (8000, 6000)
 crop_size = (640, 640)
 border = 50
-show_rate = 0.3
+show_rate = 0.5
 repeat_iou = 0.05
 
 config = tf.ConfigProto(allow_soft_placement=True)
